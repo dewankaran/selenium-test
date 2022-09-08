@@ -26,12 +26,12 @@ class app_test_case(unittest.TestCase):
 
         get_title = driver.title
         print(get_title)
+        assert 'Home page - sample_ui_pipeline_v1' == get_title
 
 
     def tearDown(self):
         sleep(5)
         self.driver.quit()
-
 
 
 
