@@ -8,4 +8,4 @@ phases:
        - sh install_driver.sh 
   build:
     commands:
-       - python app.py
+       - python app.py ${APP_URL}
